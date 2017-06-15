@@ -6,7 +6,9 @@
   `-ms-`代表ie(ie内核)浏览器私有属性    
   `-webkit-`代表safari、chrome(webkit内核)私有属性   
   ```
-  私有前缀是为了CSS新属性兼容各浏览器老版本的方式,通过这种方式来提前支持新属性,待w3c公布了标准后,再让新版浏览器支持不带私有前缀的写法。
+  私有前缀是为了CSS新属性兼容各浏览器老版本的方式,    
+  通过这种方式来提前支持新属性,待w3c公布了标准后,    
+  再让新版浏览器支持不带私有前缀的写法。
   ```
 
 
@@ -39,9 +41,10 @@ unicode-bidi             |  设置文本方向
 text-shadow              |  向文本添加阴影
 word-wrap                |  规定文本的换行规则
 
-* text-transform: capitalize(首字母大写) lowercase(小写) uppercase(大写)
+* text-transform: capitalize(首字母大写)/lowercase(小写)/uppercase(大写)
 * text-shadow: 左 上 清晰度 颜色
-* word-wrap: normal  默认换行(断点字换行,没有断点会一直排下去)    break-word(在长单词或 URL 地址内部进行换行,不会截断单词,单词作为整体换行)
+* word-wrap: normal  默认换行(断点字换行,没有断点会一直排下去)     
+   break-word(在长单词或 URL 地址内部进行换行,不会截断单词,单词作为整体换行)
 * word-break(规定非中日韩文本的换行规则): normal     
   break-all (截断换行)   keep-all(只能在半角空格或连字符处换行)
 
@@ -58,7 +61,7 @@ word-wrap                |  规定文本的换行规则
       src:url("...");
     }
   ```
-  
+
 #### 链接
   属性                      |  描述
   ------------------------ | -------------
