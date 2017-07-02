@@ -4,13 +4,17 @@
 * `inherit` 继承父元素设置
 * `-moz-` 代表Firefox(Gecko内核)浏览器私有属性      
   `-ms-`代表ie(ie内核)浏览器私有属性    
-  `-webkit-`代表safari、chrome(webkit内核)私有属性   
+  `-webkit-`代表safari、chrome(webkit内核)私有属性  
+  `-o-`代表opera浏览器私有属性 
   ```
   私有前缀是为了CSS新属性兼容各浏览器老版本的方式,通过这种方式来提前支持新属性,待w3c公布了标准后,    
   再让新版浏览器支持不带私有前缀的写法。
   ```
+* text-align 只对块级元素有效(如div,p)   vertical-align只对行内元素有效(如img,span)  
+* vertical-align (自顶向下：top | text-top | middle | baseline | text-bottom |bottom )
+* 块级元素设置垂直居中 需要设置父级display:table  自身display:table-cell
 * background-repeat: space | round (可以定义两个值指定横向和竖向 space 固定 / round 调整)
-* text-transform: capitalize(首字母大写)/lowercase(小写)/uppercase(大写)
+* text-transform: capitalize(首字母大写)/lowercase(小写)/uppercase(大写)/none
 * text-shadow: 左 上 清晰度 颜色
 * word-wrap:     
    normal  默认换行(断点字换行,没有断点会一直排下去)     
